@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Geist-Light';
+    font-style: normal;
+    src: url(src/assets/fonts/Geist-Light.woff2) format('woff2');
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Geist-Bold';
+    font-style: normal;
+    src: url(src/assets/fonts/Geist-Bold.woff2) format('woff2');
+  }
+}
