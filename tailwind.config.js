@@ -8,6 +8,7 @@ export default {
   theme: {
     fontFamily: {
       'geist-light': ['Geist-Light'],
+      'geist-medium': ['Geist-Medium'],
       'geist-bold': ['Geist-Bold']
     },
     extend: {},

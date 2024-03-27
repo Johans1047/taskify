@@ -1,11 +1,11 @@
 import CheckCircle from '../assets/svg/check-world-vector-logo.svg'
 import Checkbox from './Checkbox';
-import Ellipsis from '../assets/svg/ellipsis.svg'
+import Dropdown from './Dropdown';
 
 function Layout() {
   return (
     <>
-      <div className="my-10 mx-auto bg-gray-6000 p-3 max-w-4xl">
+      <div className="my-10 mx-auto bg-gray-6000 p-3 max-w-4xl font-geist-medium">
 
         <p className="flex items-center justify-center mt-3 mb-7 font-geist-bold text-[42px]">
           <img src={CheckCircle} alt="Check Circle Icon" className="w-9 h-9 mr-2" />
@@ -18,9 +18,10 @@ function Layout() {
             <p className="font-geist-bold text-2xl">Tasks</p>
           </div>
 
-          <div className="flex items-center px-4 bg-[#ffffff66] hover:bg-[#ffffff80] rounded-lg my-1 mx-3 px-2 py-4">
+          {/* border-gray-900 border-[1.95px] para edicion */}
+          <div className="relative z-10 flex items-center justify-between bg-[#ffffff80] hover:bg-[#ffffff96] rounded-lg my-1 mx-3 px-2 py-4">
             <Checkbox />
-            <img src={Ellipsis} alt="Ellipsis Icon" className="w-5 h-5 ml-2" />
+            <Dropdown />
           </div>
 
           <div id="tag-2" className="bg-blue-500 m-3 pt-2 pb-1 hidden">
