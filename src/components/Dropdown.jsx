@@ -8,7 +8,7 @@ import CheckCircle from '../assets/svg/check-world-vector-logo.svg'
 function Dropdown() {
   return (
     <>
-      <div className="dropdown dropdown-bottom dropdown-end mb-[-2px]">
+      <div className="dropdown dropdown-bottom dropdown-end mb-[-5px]">
 
         <div tabIndex={0} role="button" className="btn bg-transparent  hover:bg-[#66666620] border-none px-2 h-1 min-h-6 ">
           <img src={Ellipsis} alt="Ellipsis Icon" className="w-5 h-5" /> 

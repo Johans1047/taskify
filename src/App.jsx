@@ -1,4 +1,3 @@
-import TaskCreator from "./features/TaskCreator";
 import Layout from "./components/Layout";
 
 function App() {
@@ -7,7 +6,6 @@ function App() {
     <>
       <div className="text-gray-900">
         <Layout />
-        {/* <TaskCreator /> */}
       </div>
     </>
   )
